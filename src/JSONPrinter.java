@@ -11,8 +11,6 @@ import java.util.Iterator;
 import java.util.List;
 
 class JSONPrinter {
-    private org.json.simple.JSONObject SimpleJSONObject;
-    private org.json.simple.JSONArray SimpleJSONArray;
 
     int level = 0;
     private final String indent = "    ";
